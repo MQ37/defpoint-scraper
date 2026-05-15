@@ -1,0 +1,24 @@
+{
+  "name": "defpoint-scraper",
+  "version": "1.0.0",
+  "description": "Apify Actor to scrape drone spare parts from defpoint.ua",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node src/main.js"
+  },
+  "keywords": [
+    "apify",
+    "actor",
+    "scraper",
+    "crawlee"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "apify": "^3.7.2",
+    "cheerio": "^1.2.0",
+    "crawlee": "^3.16.0"
+  }
+}

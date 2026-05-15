@@ -1,0 +1,14 @@
+{
+  "actorSpecification": 1,
+  "name": "defpoint-scraper",
+  "title": "Defpoint Drone Parts Scraper",
+  "description": "Scrapes drone spare parts from defpoint.ua — names, prices, SKUs, brands, descriptions, and images.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "input": {
+    "title": "Defpoint Drone Parts Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {}
+  }
+}
