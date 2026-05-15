@@ -4,8 +4,10 @@
   "description": "Apify Actor to scrape drone spare parts from defpoint.ua",
   "type": "module",
   "scripts": {
-    "start": "node src/main.js",
-    "dev": "node src/main.js"
+    "start": "node dist/main.js",
+    "dev": "tsx --watch src/main.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "apify",
@@ -20,5 +22,10 @@
     "apify": "^3.7.2",
     "cheerio": "^1.2.0",
     "crawlee": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3"
   }
 }
